@@ -1,0 +1,27 @@
+{
+  "baseline_scales": {
+    "box_target": 8.0,
+    "robot_target_qpos": 0.3,
+    "gripper_box": 4.0,
+    "no_floor_collision": 0.25
+  },
+  "effective_scales": {
+    "box_target": 40.0,
+    "gripper_box": 4.0,
+    "no_floor_collision": 0.25,
+    "robot_target_qpos": 0.3
+  },
+  "reward_config": {
+    "scales": {
+      "box_target": 40.0,
+      "gripper_box": 4.0,
+      "no_floor_collision": 0.25,
+      "robot_target_qpos": 0.3
+    }
+  },
+  "override": "env_cfg.reward_config.scales.box_target = 40.0",
+  "num_envs": 64,
+  "max_iters": 1001,
+  "learning_rate": 0.001,
+  "device": "cpu"
+}

@@ -1,0 +1,8 @@
+{
+  "mean_reward": 674.8626708984375,
+  "training_seconds": 1645,
+  "successes": 0,
+  "episodes": 10,
+  "checkpoint": "logs/box_target_strong/model_1000.pt",
+  "video": "logs/box_target_strong/inference.mp4"
+}

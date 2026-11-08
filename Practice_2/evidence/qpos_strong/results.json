@@ -1,0 +1,8 @@
+{
+  "mean_reward": 4475.5859375,
+  "training_seconds": 1486,
+  "successes": 0,
+  "episodes": 10,
+  "checkpoint": "logs/qpos_strong/model_1000.pt",
+  "video": "logs/qpos_strong/inference.mp4"
+}
